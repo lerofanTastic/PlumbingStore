@@ -93,16 +93,23 @@ header{
 .description-right{
     position: relative;
 }
-.price-button{
-    font-family: 'PT Sans';
+.price-button-small{
+    padding: 0.74vh;
+    font-size: 1.48vh;
+    line-height: 1.85vh;
+}
+.price-button-big{
     font-size: 2.22vh;
     line-height: 2.22vh;
     padding: 1.38vh;
+}
+.price-button{
+    font-family: 'PT Sans';
     background-color: #FF7028;
     color: white;
-    position: absolute;
 }
 .description-price{
+    position: absolute;
     top: 28.43vh;
     left: 6.3vw;
 }
@@ -228,9 +235,6 @@ header{
     line-height: 3.33vh!important;
     color: white!important;
 }
-.collections-bottom{
-
-}
 .collections-all{
     margin-top: 2.4vh;
     margin-bottom: 3.5vh;
@@ -258,6 +262,140 @@ header{
 .collections-button{
     top: 10.55vh;
     left: 4.11vw;
+    position: absolute;
+}
+/*GOODS*/
+.goods{
+    margin-top: 7.4vh;
+    margin-bottom: 7.4vh;
+}
+.goods-title{
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 2.96vh;
+    line-height: 3.33vh;
+    margin-bottom: 1.85vh;
+}
+.goods-items{
+    display: flex;
+}
+.goods-items>*{
+    border: 1px solid #ECECEC;
+}
+.good{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.good-img>img{
+    max-height: 17.4vh;
+    margin: 1.85vh;
+}
+.good-img>span{
+    margin: 1.1vh;
+    
+}
+.good-img{
+    display: flex;
+    align-items: start;
+}
+.good-description{
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 1.48vh;
+    line-height: 2vh;
+    color: #151716;
+    margin: 1.85vh;
+}
+.good-price{
+    margin-left: 1.85vh;
+    margin-bottom: 2.2vh;
+    font-family: 'PT Sans';
+    
+}
+.good-price-discount{
+    font-size: 1.48vh;
+    line-height: 1.48vh;
+    color: #A5A5A5;
+    text-decoration: line-through;
+}
+.good-price-normal{
+    color: black!important;
+    font-size: 1.85vh!important;
+    line-height: 1.85vh!important;
+
+}
+/*ADVANTAGES*/
+.advantages{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 49.94vw;
+}
+.advantages-title{
+    margin: 0 auto;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 2.96vh;
+    line-height: 3.33vh;
+    margin-top: 6.84vh;
+    margin-bottom: 5vh;
+}
+.advantages-items{
+    margin: 0 auto;
+    margin-bottom: 7.4vh;
+    display: flex;
+    justify-content: space-between;
+}
+.advantage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 14.68vw;
+}
+.advantage-lower{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advantage-title{
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 1.85vh;
+    line-height: 2.13vh;
+    margin-top: 2.22vh;
+}
+.advantage-description{
+    text-align: center;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 1.38vh;
+    line-height: 1.85vh;
+    margin-top: 1vh;
+    color: #7B7B7B;
+}
+/*ORANGE-BOTTOM*/
+.orange-bottom{
+    position: relative;
+}
+.orange-bottom-img{
+    width: 100vw;
+}
+.orange-bottom-text{
+    position: absolute;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    left: 18.5vw;
+    width: 63vw;
+    background-color: #F6761A;
+    font-family: 'Gilroy';
+    padding-top: 3.8vh;
+    padding-bottom: 4.35vh;
+    font-size: 2.59vh;
+    line-height: 3.33vh;
+    font-weight: 400;
 }
 /*FONTS*/
 @font-face{
